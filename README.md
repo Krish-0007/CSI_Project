@@ -1,2 +1,84 @@
-# CSI_Project
-🎓 Student Marks Prediction with Special Attention Detection This project uses machine learning to predict student performance based on study habits and behavioral factors. It also identifies students who are likely to fail and require special attention, helping educators take proactive actions.  🔍 Objective Predict final exam marks using multiple factors like:  Hours studied per day  Attendance percentage  Previous exam scores  Sleep hours  Class participation level  Automatically flag students who are predicted to score below the passing mark (40) for intervention.  🧠 Tech Stack & Algorithms Python  Pandas, Scikit-learn, Matplotlib, Seaborn  Regression Algorithm: Linear Regression (can be replaced with Random Forest/XGBoost)  Preprocessing: Standardization using StandardScaler  📁 Files in the Repository student_data.csv – Dataset with features and final marks  student_model_predictions.csv – Predicted results on test data  student_predictions_top50.csv – Predictions for top 50 students with remarks  student_marks_prediction.ipynb – Jupyter notebook with complete ML workflow  README.md – This file  🏷️ Output Example Hours_Studied	Attendance	Final_Marks	Predicted_Marks	Remark 2.5	60	33	35.2	❌ Requires Special Attention 5.0	85	78	75.9	✅ Satisfactory  🚀 Future Improvements Use advanced models like RandomForestRegressor or XGBoost  Create a Streamlit web app for interactive use  Integrate with real-time classroom data
+# 🎓 Student Marks Prediction with Special Attention Detection
+
+This project uses machine learning to predict student performance based on various academic and behavioral factors. It also identifies students who are likely to fail and **require special attention**, allowing timely interventions from educators or mentors.
+
+---
+
+## 🔍 Objective
+
+- Predict **final exam marks** using features like:
+  - 📚 Hours studied per day
+  - 🏫 Attendance percentage
+  - 📝 Previous exam scores
+  - 😴 Sleep hours
+  - 🙋 Class participation rating
+
+- Automatically **flag students** predicted to score **below 40** as:
+  > ❌ Requires Special Attention
+
+---
+
+## 🧠 Tech Stack & Algorithms
+
+- **Python 3**
+- **Libraries**:
+  - `pandas`
+  - `scikit-learn`
+  - `matplotlib`
+  - `seaborn`
+- **Algorithm**: Linear Regression
+- **Preprocessing**: StandardScaler for normalization
+
+---
+
+## 📁 Repository Structure
+
+| File                             | Description                                               |
+|----------------------------------|-----------------------------------------------------------|
+| `student_data.csv`              | Raw dataset with features and actual marks                |
+| `student_model_predictions.csv` | Predictions for test set with actual vs predicted marks   |
+| `student_predictions_top50.csv` | Predictions + remarks for first 50 students               |
+| `student_marks_prediction.ipynb`| Jupyter Notebook with training, prediction, and analysis  |
+| `README.md`                     | Project overview and usage guide                          |
+
+---
+
+## 📊 Sample Output
+
+| Hours_Studied | Attendance | Final_Marks | Predicted_Marks | Remark                     |
+|---------------|------------|-------------|------------------|----------------------------|
+| 2.5           | 60         | 33          | 35.2             | ❌ Requires Special Attention |
+| 5.0           | 85         | 78          | 75.9             | ✅ Satisfactory               |
+
+---
+
+## 🚀 Future Enhancements
+
+- Replace Linear Regression with more powerful models like:
+  - `RandomForestRegressor`
+  - `XGBoostRegressor`
+- Build an interactive **Streamlit dashboard**
+- Add student **ID/name** tracking
+- Real-time integration with school attendance and exam systems
+
+---
+
+## 🤝 Contributions
+
+Contributions, suggestions, and improvements are welcome!  
+Feel free to fork this repository and raise a pull request.
+
+---
+
+## 📜 License
+
+This project is open-source and free to use under the **MIT License**.
+
+---
+
+## 🧩 Author
+
+**Krishnav Sharma**  
+B.Tech (AI), SKIT Jaipur  
+[LinkedIn](https://linkedin.com/) • [GitHub](https://github.com/)
+
