@@ -80,5 +80,5 @@ This project is open-source and free to use under the **MIT License**.
 
 **Krishnav Sharma**  
 B.Tech (AI), SKIT Jaipur  
-[LinkedIn]([https://linkedin.com/](https://www.linkedin.com/in/krishnav-sharma-960350247/)) • [GitHub]([https://github.com/](https://github.com/Krish-0007))
+[LinkedIn](https://www.linkedin.com/in/krishnav-sharma-960350247/) • [GitHub](https://github.com/Krish-0007).
 
